@@ -18,6 +18,13 @@ sudo npm install -g instant-server
 instant -p 8081 ./
 ```
 
+# Developing apps
+If you are new to Lightning, please consult the [Lightning framework documentation](https://webplatformforembedded.github.io/Lightning). 
+
+When building an app on the Lightning SDK, instead of extending `lng.Application`, extends [`ux.Apps`](https://github.com/WebPlatformForEmbedded/Lightning-SDK/blob/master/js/src/App.js). This brings some additional features such as **automated font loading** and **relative paths**.
+
+Notice that the SDK provides additional features such as a *mediaplayer* implementation, a generic *video player UI*, generic *keyboard* and some other components. For now please use the *force* and read the [*source*](https://github.com/WebPlatformForEmbedded/Lightning-SDK/tree/master/js/src/tools).
+
 # Building app distribution
 
 Use the following steps to create a distribution:
