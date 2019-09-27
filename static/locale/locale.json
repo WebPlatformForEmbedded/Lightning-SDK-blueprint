@@ -1,0 +1,13 @@
+{
+    "en": {
+        "hello": "Hello",
+        "hello2": "Formatted {0} {1} {0} {1} string.",
+        "january": "January"
+    },
+
+    "pl": {
+        "hello": "Witaj",
+        "hello2": "Sformatowany {0} {1} {0} {1} ciag.",
+        "january": "Styczen"
+    }
+}
