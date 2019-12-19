@@ -1,4 +1,6 @@
-export default class App extends ux.App {
+import { Lightning } from 'wpe-lightning-sdk'
+
+export default class App extends Lightning.Component {
 
     static getFonts() {
         return [
@@ -7,7 +9,10 @@ export default class App extends ux.App {
 
     static _template() {
         return {
-        };
+            Label:{
+                x: 100, y:100, text:{text:'Lightning-SDK Blueprint'}
+            }
+        }
     }
 
 }
